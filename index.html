@@ -14,7 +14,7 @@
   <section class="legend" id="legend"></section>
   <nav class="nav"><button id="prev" aria-label="Previous page">‹</button><button id="today">Today + 6 days</button><button id="next" aria-label="Next page">›</button></nav>
   <section class="week" id="week"></section>
-  <p class="footer">Updated through ChatGPT · Auto-refresh 07:00–22:00</p>
+  <p class="footer">Updated through ChatGPT · Refreshes when reopened</p>
 </main><script>
 const PEOPLE={penelope:{name:'Penelope',color:'#8B5CF6'},timothy:{name:'Timothy',color:'#3987F5'},josie:{name:'Josie',color:'#F06D6D'},chad:{name:'Chad',color:'#2DA77A'},family:{name:'Family',color:'#D68A13'},alemannia:{name:'Alemannia',color:'#F3C500'}};
 const ONCE=[
@@ -46,4 +46,7 @@ function render(){let anchor=pageStart(),end=new Date(anchor);end.setDate(end.ge
 document.querySelector('#prev').onclick=()=>{if(page>0){page--;render()}};document.querySelector('#next').onclick=()=>{page++;render()};document.querySelector('#today').onclick=()=>{page=0;render()};render();
 function scheduleRefresh(){const now=new Date(),next=new Date(now);next.setSeconds(0,0);next.setMinutes(0);next.setHours(now.getHours()+1);if(next.getHours()>22){next.setDate(next.getDate()+1);next.setHours(7,0,0,0)}else if(next.getHours()<7){next.setHours(7,0,0,0)}setTimeout(()=>location.reload(),Math.max(1000,next-now))}
 scheduleRefresh();
+let wasHidden=false;
+document.addEventListener('visibilitychange',()=>{if(document.hidden){wasHidden=true}else if(wasHidden){location.reload()}});
+window.addEventListener('pageshow',event=>{if(event.persisted)location.reload()});
 </script></body></html>
