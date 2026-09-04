@@ -1,7 +1,7 @@
 const PEOPLE={penelope:{name:'Penelope',color:'#846BB8'},timothy:{name:'Timothy',color:'#4F88BD'},josie:{name:'Josie',color:'#A56FAE'},chad:{name:'Chad',color:'#4F9478'},family:{name:'Family',color:'#6786A8'},alemannia:{name:'Alemannia',color:'#7479B5'}};
 const ONCE=[
  {date:'2026-09-05',title:'Quentin’s birthday party',person:'timothy'},
- {date:'2026-09-08',title:'Ballet',person:'penelope',start:'15:45',end:'16:30'},
+ {date:'2026-09-08',title:'Ballet',person:'penelope',start:'15:45',end:'16:30',note:'Take ballet things to school · Change into ballet clothes at OGS'},
  {date:'2026-09-09',title:'Gogo leaves',person:'family',timeLabel:'Morning · Time TBC',responsible:'Chad',linkedTitle:'Gogo · Airport'},
  {date:'2026-09-12',title:'Alemannia vs Jahn Regensburg',person:'alemannia',start:'16:30',homeGame:true},
  {date:'2026-09-15',title:'Football',person:'timothy'},
@@ -12,7 +12,7 @@ const ONCE=[
 ];
 const BIRTHDAYS=[{md:'09-09',title:'Dale’s birthday'},{md:'09-10',title:'Grumps’s birthday'},{md:'09-10',title:'Diane’s birthday'},{md:'09-14',title:'Bradford’s birthday'}];
 const REPEATS=[
- {from:'2026-09-15',to:'2026-12-31',weekday:2,title:'Ballet',person:'penelope',start:'15:45',end:'16:30'},
+ {from:'2026-09-15',to:'2026-12-31',weekday:2,title:'Ballet',person:'penelope',start:'15:45',end:'16:30',note:'Take ballet things to school · Change into ballet clothes at OGS'},
  {from:'2026-09-14',to:'2026-12-31',weekday:1,title:'Swimming lesson',person:'penelope',start:'16:15',end:'17:00'},
  {from:'2026-09-18',to:'2026-12-31',weekday:5,title:'Football',person:'timothy',start:'16:30',end:'17:30'},
  {from:'2026-09-21',to:'2026-12-31',weekday:1,title:'Football',person:'timothy',start:'17:30',end:'18:30'},
