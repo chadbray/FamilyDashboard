@@ -1,4 +1,4 @@
-const PEOPLE={penelope:{name:'Penelope',color:'#8B5CF6'},timothy:{name:'Timothy',color:'#3987F5'},josie:{name:'Josie',color:'#F06D6D'},chad:{name:'Chad',color:'#2DA77A'},family:{name:'Family',color:'#D68A13'},alemannia:{name:'Alemannia',color:'#F3C500'}};
+const PEOPLE={penelope:{name:'Penelope',color:'#8B67C7'},timothy:{name:'Timothy',color:'#4389C7'},josie:{name:'Josie',color:'#E66F7A'},chad:{name:'Chad',color:'#3A9A7A'},family:{name:'Family',color:'#D7893B'},alemannia:{name:'Alemannia',color:'#D7AC20'}};
 const ONCE=[
  {date:'2026-09-05',title:'Quentin’s birthday party',person:'timothy'},
  {date:'2026-09-08',title:'Ballet',person:'penelope',start:'15:45',end:'16:30'},
