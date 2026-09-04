@@ -12,6 +12,7 @@ const ONCE=[
 ];
 const BIRTHDAYS=[{md:'09-09',title:'Dale’s birthday'},{md:'09-10',title:'Grumps’s birthday'},{md:'09-10',title:'Diane’s birthday'},{md:'09-14',title:'Bradford’s birthday'}];
 const REPEATS=[
+ {from:'2026-09-08',to:'2026-12-31',weekday:2,title:'Pick up Penelope for ballet',person:'chad',start:'15:30',end:'15:45'},
  {from:'2026-09-15',to:'2026-12-31',weekday:2,title:'Ballet',person:'penelope',start:'15:45',end:'16:30',note:'Take ballet things to school · Change into ballet clothes at OGS'},
  {from:'2026-09-14',to:'2026-12-31',weekday:1,title:'Swimming lesson',person:'penelope',start:'16:15',end:'17:00'},
  {from:'2026-09-18',to:'2026-12-31',weekday:5,title:'Football',person:'timothy',start:'16:30',end:'17:30'},
