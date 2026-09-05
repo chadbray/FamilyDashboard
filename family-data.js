@@ -1,6 +1,6 @@
 const PEOPLE={penelope:{name:'Penelope',color:'#846BB8'},timothy:{name:'Timothy',color:'#4F88BD'},josie:{name:'Josie',color:'#A56FAE'},chad:{name:'Chad',color:'#4F9478'},family:{name:'Family',color:'#6786A8'},alemannia:{name:'Alemannia',color:'#7479B5'}};
 const ONCE=[
- {date:'2026-09-05',title:'Quentin’s birthday party',person:'timothy'},
+ {date:'2026-09-05',title:'Quentin’s birthday party',person:'timothy',start:'12:00'},
  {date:'2026-09-08',title:'Ballet',person:'penelope',start:'15:45',end:'16:30',note:'Take ballet things to school · Change into ballet clothes at OGS'},
  {date:'2026-09-09',title:'Gogo leaves',person:'family',timeLabel:'Morning · Time TBC',responsible:'Chad',linkedTitle:'Gogo · Airport'},
  {date:'2026-09-12',title:'Alemannia vs Jahn Regensburg',person:'alemannia',start:'16:30',homeGame:true},
