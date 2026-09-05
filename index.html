@@ -30,7 +30,7 @@
   <nav class="nav"><button id="prev" aria-label="Previous page">‹</button><button id="today">Today + 6 days</button><button id="next" aria-label="Next page">›</button></nav>
   <section class="week" id="week"></section>
   <p class="footer">Updated through ChatGPT · Refreshes when reopened</p>
-</main><script src="family-data.js?v=20260904-1940"></script><script>
+</main><script src="family-data.js?v=20260905-1200"></script><script>
 let WEATHER={};
 async function refreshWeather(){try{WEATHER=await getWeather();render()}catch(error){console.warn('Weather unavailable')}}
 let page=0;const currentDay=()=>{let d=new Date();d.setHours(12,0,0,0);return d};
