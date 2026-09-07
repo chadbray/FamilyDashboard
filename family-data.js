@@ -12,10 +12,11 @@ const ONCE=[
 const BIRTHDAYS=[{md:'09-09',title:'Dale’s birthday'},{md:'09-10',title:'Grumps’s birthday'},{md:'09-10',title:'Diane’s birthday'},{md:'09-14',title:'Bradford’s birthday'}];
 const REPEATS=[
  {from:'2026-09-14',to:'2026-12-31',weekday:1,title:'Pick up Penelope for swimming',person:'chad',start:'15:30',end:'16:15'},
+ {from:'2026-09-08',to:'2026-12-31',weekday:2,title:'Pick up Timothy',person:'chad',start:'15:10',end:'15:30'},
  {from:'2026-09-08',to:'2026-12-31',weekday:2,title:'Pick up Penelope for ballet',person:'chad',start:'15:30',end:'15:45'},
  {from:'2026-09-15',to:'2026-12-31',weekday:2,title:'Ballet',person:'penelope',start:'15:45',end:'16:30',note:'Take ballet things to school · Change into ballet clothes at OGS'},
  {from:'2026-09-14',to:'2026-12-31',weekday:1,title:'Swimming lesson',person:'penelope',start:'16:15',end:'17:00'},
- {from:'2026-09-07',to:'2026-12-31',weekday:1,title:'Football',person:'timothy',start:'17:30',end:'18:30',responsible:'Chad',linkedTitle:'Timothy · Football'},
+ {from:'2026-09-21',to:'2026-12-31',weekday:1,title:'Football',person:'timothy',start:'17:30',end:'18:30',responsible:'Chad',linkedTitle:'Timothy · Football'},
  {from:'2026-09-18',to:'2026-12-31',weekday:5,title:'Football',person:'timothy',start:'16:30',end:'17:30',responsible:'Chad',linkedTitle:'Timothy · Football'},
 ];
 const pad=n=>String(n).padStart(2,'0'),iso=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`,parse=s=>new Date(`${s}T12:00:00`),monday=d=>{d=new Date(d);d.setHours(12,0,0,0);d.setDate(d.getDate()-((d.getDay()+6)%7));return d},mins=s=>{let[h,m]=s.split(':').map(Number);return h*60+m},dur=(a,b)=>{if(!a||!b)return'';let n=mins(b)-mins(a);return n>=60?`${Math.floor(n/60)}h${n%60?' '+n%60+'m':''}`:`${n}m`};
