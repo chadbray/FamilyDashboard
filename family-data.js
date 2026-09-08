@@ -7,6 +7,7 @@ const ONCE=[
  {date:'2026-09-15',title:'Parents’ evening',person:'josie',start:'19:30'},
  {date:'2026-09-17',title:'Head Acoustics birthday party',person:'josie',timeLabel:'Until late'},
  {date:'2026-09-19',title:'Kindergarten grill',person:'family',start:'14:00'},
+ {date:'2026-09-19',title:'Braai at the Mertens',person:'family',timeLabel:'Afternoon · Time TBC'},
  {date:'2026-09-19',title:'Alemannia vs Fortuna Düsseldorf',person:'alemannia',start:'14:00',homeGame:true},
 ];
 const BIRTHDAYS=[{md:'09-09',title:'Dale’s birthday'},{md:'09-10',title:'Grumps’s birthday'},{md:'09-10',title:'Diane’s birthday'},{md:'09-14',title:'Bradford’s birthday'}];
