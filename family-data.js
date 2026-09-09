@@ -10,6 +10,7 @@ const ONCE=[
  {date:'2026-09-19',title:'Braai at the Mertens',person:'family',timeLabel:'Afternoon · Time TBC'},
  {date:'2026-09-19',title:'Alemannia vs Fortuna Düsseldorf',person:'alemannia',start:'14:00',homeGame:true},
  {date:'2026-09-21',title:'Kindergarten-Mitgliederversammlung',person:'josie',start:'19:00',location:'Summerlong'},
+ {date:'2026-10-07',title:'Kita, Vorstand meeting and parent evening',person:'josie',start:'18:00'},
 ];
 const BIRTHDAYS=[{md:'09-09',title:'Dale’s birthday'},{md:'09-10',title:'Grumps’s birthday'},{md:'09-10',title:'Diane’s birthday'},{md:'09-14',title:'Bradford’s birthday'}];
 const REPEATS=[
