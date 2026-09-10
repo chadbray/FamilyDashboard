@@ -5,7 +5,7 @@ const ONCE=[
  {date:'2026-09-09',title:'Gogo leaves',person:'family',timeLabel:'Morning · Time TBC',responsible:'Chad',linkedTitle:'Gogo · Airport'},
  {date:'2026-09-12',title:'Alemannia vs Jahn Regensburg',person:'alemannia',start:'16:30',homeGame:true},
  {date:'2026-09-15',title:'Parents’ evening',person:'josie',start:'19:30'},
- {date:'2026-09-17',title:'Head Acoustics birthday party',person:'josie',timeLabel:'Until late'},
+ {date:'2026-09-17',title:'Company 40th event',person:'josie'},
  {date:'2026-09-19',title:'Kindergarten grill',person:'family',start:'14:00'},
  {date:'2026-09-19',title:'Braai at the Mertens',person:'family',timeLabel:'Afternoon · Time TBC'},
  {date:'2026-09-19',title:'Alemannia vs Fortuna Düsseldorf',person:'alemannia',start:'14:00',homeGame:true},
